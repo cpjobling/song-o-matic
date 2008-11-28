@@ -1,0 +1,18 @@
+<p>
+  <b>Title:</b>
+  <%=h @song.title %>
+</p>
+
+<p>
+  <b>Composer:</b>
+  <%=h @song.composer %>
+</p>
+
+<p>
+  <b>Artist or group:</b>
+  <%=h @song.artist_or_group %>
+</p>
+
+
+<%= link_to 'Edit', edit_song_path(@song) %> |
+<%= link_to 'Back', songs_path %>

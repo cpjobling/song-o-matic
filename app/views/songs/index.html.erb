@@ -1,0 +1,24 @@
+<h1>Listing songs</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Composer</th>
+    <th>Artist or group</th>
+  </tr>
+
+<% for song in @songs %>
+  <tr>
+    <td><%=h song.title %></td>
+    <td><%=h song.composer %></td>
+    <td><%=h song.artist_or_group %></td>
+    <td><%= link_to 'Show', song %></td>
+    <td><%= link_to 'Edit', edit_song_path(song) %></td>
+    <td><%= link_to 'Destroy', song, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New song', new_song_path %>

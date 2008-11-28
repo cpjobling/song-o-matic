@@ -1,0 +1,31 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  title: Don't Sleep in the Subway Darling
+  composer: Jackie Trent and Tony Hatch
+  artist_or_group: Petula Clark
+
+two:
+  title: Help!
+  composer: John Lennon and Paul McCartney
+  artist_or_group: The Beatles
+  
+three:
+  title: Please, Please Me
+  composer: John Lennon and Paul McCartney
+  artist_or_group: The Beatles
+  
+four:
+  title: Space Oddity
+  composer: David Bowie
+  artist_or_group: David Bowie and the Spiders from Mars
+  
+five:
+  title: It's a Kind of Magic
+  composer: Freddy Mercury
+  artist_or_group: Queen
+  
+six:
+  title: Wish You Were Here
+  composer: David Gilmour and Roger Waters
+  artist_or_group: Pink Floyd
